@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#00407D</color>
+    <color name="colorPrimary">#01468B</color>
+    <color name="colorPrimaryDark">#00407D</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#0764BE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="text_color">#1A3583</color>
+    <color name="item_color">#D8DEF1</color>
+    <color name="not_accept_color">#B2D5EE</color>
+
+    <color name="grey_mid">#616365</color>
+    <color name="grey">#E0E0E0</color>
+
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+</resources>

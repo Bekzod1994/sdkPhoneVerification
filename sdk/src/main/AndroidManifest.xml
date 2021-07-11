@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity"
+    package="uz.digid.myverdi">
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <permission android:name="android.permission.READ_PHONE_STATE"/>
+    <permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:replace="android:allowBackup"
+        tools:targetApi="n">
+       <!-- <activity android:name="uz.digid.myverdi.ui.MainActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.DigId"
+            android:screenOrientation="portrait">
+
+        </activity>-->
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "35043626874",
+    "project_id": "myverdi-71464",
+    "storage_bucket": "myverdi-71464.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35043626874:android:8bf06cbf7db3b6766d50c3",
+        "android_client_info": {
+          "package_name": "uz.digid.myverdi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35043626874-uhtehcqp6n57iiepgmdg3ssho07ik5fb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.digid.myverdi",
+            "certificate_hash": "c3c5a3a97744dbc054036892ac2d3f11e66a56ae"
+          }
+        },
+        {
+          "client_id": "35043626874-r5fst10idr7f308vls2vvjj91kofha2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZF8MHJzR5Ncf23LtrgCJULQtJTWncMUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35043626874-r5fst10idr7f308vls2vvjj91kofha2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

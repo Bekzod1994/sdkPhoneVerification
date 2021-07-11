@@ -1,0 +1,150 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Verdi</string>
+    <string name="switch_camera_button_alt">Переключить камеру</string>
+    <string name="capture_button_alt">Снимок</string>
+
+    //EnterPhoneNumberFragment
+    <string name="enter_phone_number">Введите номер телефона</string>
+    <string name="next">Далее</string>
+    <string name="public_offer_label">Регистрируясь, \n вы соглашаетесь с <font color='#00AFFF'>Публичной офертой</font></string>
+    <string name="e_mail">e-mail</string>
+
+    //EnterSmsCodeFragment
+    <string name="enter_sms_code">Введите код из SMS, отправленного на введённый номер</string>
+    <string name="send_the_code_again">Отправить SMS код еще раз</string>
+    <string name="cannot_empty">Не может быть пустым</string>
+
+
+    //IdentificationFragment
+    <string name="scanner">Сканер</string>
+    <string name="document">Сканер Паспорт</string>
+    <string name="scanner_qr_code">Сканер ID card</string>
+
+    <string name="check_mrz_input">Собранная информация</string>
+    <string name="prompt_document_number">Номер паспорта</string>
+    <string name="prompt_document_date_of_birth">Дата рождения(31.12.1991)</string>
+
+    //ScannerFragment
+    <string name="mrz1"><![CDATA[P<SURNAME<<NAME<<<<<<<<<<<<<<<<<<<<<<<<<<<]]></string>
+    <string name="mrz2"><![CDATA[ AB12345678UZB012345M311231012345678901234567]]></string>
+    <string name="value_null">null</string>
+
+    //NFCFragment
+    <string name="result_title">результат запроса</string>
+    <string name="send_data">Данные проверяются…</string>
+    <string name="skip_nfc_read">Пропустить чтение NFC</string>
+    <string name="document_attach_phone">Приложите документ к телефону</string>
+    <string name="label_document_number">Номер паспорта:</string>
+    <string name="label_document_expiry">Срок действия:</string>
+    <string name="label_additional_information_dob">Дата рождения:</string>
+    <string name="nfc_title">Положите телефон на паспорт и не перемещайте его</string>
+
+    // ResultFragment
+    <string name="label_passport">Пасспорт</string>
+    <string name="label_not_available">нет данных</string>
+    <string name="error_validation_date">Формат даты недействителен</string>
+    <string name="error_validation_document_number">Номер документа недействителен</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_additional_information_personal_number">Персональный номер:</string>
+    <string name="identification">ре-идентификация</string>
+    <string name="label_authorization">Авторизация</string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_key_camerax_target_resolution" translatable="false">ctas</string>
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+
+    <!-- Strings for face detector min face size preference. -->
+
+    <string name="image_face">Снимите фотографию своего лица (селфи)</string>
+    <string name="nfc_is_not_available">NFC недоступен для устройства</string>
+    <string name="user_identification">Идентификация пользователя</string>
+    <string name="enter_passport_data">Введите свои паспортные данные</string>
+    <string name="nfc_is_not_enabled">"NFC доступен для устройства, но не включен"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    //PassportDataFragment
+    <string name="register_success">Поздравляю вы прошли идентификацию!</string>
+    <string name="register_error">вы не прошли идентификацию!!!</string>
+    <string name="authorization_error">вы не прошли авторизацию!!!</string>
+
+    <string name="check_passport_data">Проверьте паспортные данные</string>
+    <string name="pop_back_to_auth">Главный</string>
+    <string name="send">Отправить</string>
+    <string name="nfc">NFC:</string>
+    <string name="open_camera">добавить изображение селфи</string>
+
+    <string name="error_nfc">Не удалось распознать документ,\n попробуйте ещё раз</string>
+    <string name="try_one">Попробовать еще раз</string>
+    <string name="info">Информация</string>
+    /Person data
+    <string name="requestGuid">Гражданство:</string>
+    <string name="inn">ИНН:</string>
+    <string name="pinpp">Персональный номер:</string>
+    <string name="surnameC">Фамилия кирил:</string>
+    <string name="nameC">Имя кирил:</string>
+    <string name="patronymC">Отчество кирил:</string>
+    <string name="surnameL">Фамилия лотин:</string>
+    <string name="nameL">Имя лотин:</string>
+    <string name="patronymL">Отчество лотин:</string>
+    <string name="surnameE">Фамилия английский:</string>
+    <string name="nameE">Имя английский:</string>
+    <string name="birthDate">День рождения:</string>
+    <string name="sex">Пол:</string>
+    <string name="sexName">Пол имя:</string>
+    <string name="sexNameUz">Пол имя Узб:</string>
+    <string name="birthCountry">Страна рождения:</string>
+    <string name="birthCountryName">Страна рождения:</string>
+    <string name="birthCountryNameUz">Страна рождения Узб:</string>
+    <string name="birthPlace">Место рождения:</string>
+    <string name="nationality">Национальность:</string>
+    <string name="nationalityName">Национальность:</string>
+    <string name="nationalityNameUz">Национальность Узб:</string>
+    <string name="documentType">Тип документа:</string>
+    <string name="documentTypeName">Тип документа:</string>
+    <string name="documentTypeUz">Тип документа Узб:</string>
+    <string name="documentSerialNumber">Номер паспорта:</string>
+    <string name="documentDateIssue">Документ Дата выпуска:</string>
+    <string name="documentDateValid">Срок действия документа:</string>
+    <string name="documentIssuedBy">место выдачи паспорта:</string>
+    <string name="personStatus">Статус человека:</string>
+    <string name="personStatusValue">Статус человека:</string>
+    <string name="citizenship">Гражданство:</string>
+    <string name="citizenshipName">Гражданство:</string>)
+    <string name="citizenshipNameUz">Гражданство Узб:</string>
+    <string name="additional">Дополнительный:</string>
+
+    // Address data
+    <string name="kadastr">кадастр:</string>
+    <string name="country">Страна:</string>
+    <string name="countryICAO">Код ИКАО:</string>
+    <string name="countryName">Страна:</string>
+    <string name="countryNameUz">Страна Узб:</string>
+    <string name="region">Область:</string>
+    <string name="regionName">Область:</string>
+    <string name="regionNameUz">Область Узб:</string>
+    <string name="district">Район:</string>
+    <string name="districtName">Район:</string>
+    <string name="districtNameUz">Район Узб:</string>
+    <string name="address">Адрес:</string>
+    <string name="house">Дом:</string>
+    <string name="block">Блок:</string>
+    <string name="liveFromDate">зарег. с даты:</string>
+    / Liveness Data
+    <string name="liveness">Oценка витальности:</string>
+    <string name="similarity">Оценка сходства:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="accept">Принимаю</string>
+    <string name="not_accept">Не принимаю</string>
+    <string name="exit">Выход</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="log_out">удалить регистрацию с этого номера?</string>
+    <string name="retry">Повторить</string>
+    <string name="ok">OK</string>
+    <string name="history">История</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="settings">Настройки</string>
+    <string name="home">Главный</string>
+    <string name="waiting_network">Ожидание сети…</string>
+
+</resources>

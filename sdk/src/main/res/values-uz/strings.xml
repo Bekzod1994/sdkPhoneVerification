@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Verdi</string>
+    <string name="switch_camera_button_alt">Kamerani almashtirish</string>
+    <string name="capture_button_alt">suratga olish</string>
+
+    //EnterPhoneNumberFragment
+    <string name="enter_phone_number">Telefon raqamingizni kiriting</string>
+    <string name="next">Keyingi</string>
+    <string name="public_offer_label">Ro\'yxatdan o\'tish orqali siz \n <font color='#00AFFF'>Public Offerta</font>ga rozilik bildirasiz </string>
+    <string name="e_mail">e-mail</string>
+
+    //EnterSmsCodeFragment
+    <string name="enter_sms_code">Raqamga yuborilgan SMS-dan kodni kiriting</string>
+    <string name="send_the_code_again">SMS-kodni qayta yuborish</string>
+    <string name="cannot_empty">Bo\'sh bo\'lishi mumkin emas</string>
+
+    //IdentificationFragment
+    <string name="scanner">Skaner</string>
+    <string name="document">Skaner Pasport</string>
+    <string name="scanner_qr_code">Skaner ID card</string>
+    <string name="check_mrz_input">To\'plangan ma\'lumotlar</string>
+    <string name="prompt_document_number">Hujjat raqami</string>
+    <string name="prompt_document_date_of_birth">Tug\'ilgan kun(31.12.1991)</string>
+
+    //ScannerFragment
+    <string name="mrz1"><![CDATA[P<SURNAME<<NAME<<<<<<<<<<<<<<<<<<<<<<<<<<<]]></string>
+    <string name="mrz2"><![CDATA[ AB12345678UZB012345M311231012345678901234567]]></string>
+    <string name="value_null">null</string>
+
+    //NFCFragment
+    <string name="result_title">So\'rov natijasi</string>
+    <string name="send_data">Ma\'lumotlar tekshirilmoqda ...</string>
+    <string name="skip_nfc_read">NFC o\'qishni o\'tkazib yuborish</string>
+    <string name="document_attach_phone">Telefoningizni orqasiga pasportingizga qo\'ying</string>
+    <string name="label_document_number">Hujjat seriya va raqami:</string>
+    <string name="label_document_expiry">Amal qilish muddati:</string>
+    <string name="label_additional_information_dob">Tug\'ilgan kun:</string>
+    <string name="nfc_title">Telefoningizni pasportingizga qo\'ying va kuting!!!</string>
+
+    // ResultFragment
+    <string name="label_passport">Pasport</string>
+    <string name="label_not_available">NA</string>
+    <string name="error_validation_date">Sana noto\'g\'ri kiritildi</string>
+    <string name="error_validation_document_number">Hujjat no\'meri noto\'g\'ri kiritildi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_additional_information_personal_number">JSHSHIR:</string>
+    <string name="identification">Identifikatsiya</string>
+    <string name="label_authorization">Avtorizatsiya</string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_key_camerax_target_resolution" translatable="false">ctas</string>
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+
+    <!-- Strings for face detector min face size preference. -->
+
+    <string name="image_face">Yuzingizni suratga oling (selfi)</string>
+    <string name="nfc_is_not_available">Qurilmada NFC mavjud emas</string>
+    <string name="user_identification">Foydalanuvchining identifikatori</string>
+    <string name="enter_passport_data">Pasport ma\'lumotlarini kiriting</string>
+    <string name="nfc_is_not_enabled">"Qurilmada NFC mavjud, ammo yoqilmagan"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    //PassportDataFragment
+    <string name="register_success">Tabriklaymiz, aniqlangansiz!</string>
+    <string name="register_error">Siz identifikatsiyadan o\'tmadiz!</string>
+    <string name="authorization_error">Siz identifikatsiyadan o\'tmadiz!!!</string>
+
+    <string name="check_passport_data">Pasport ma\'lumotlarini tekshiring</string>
+    <string name="pop_back_to_auth">Asosiy</string>
+    <string name="send">Yuborish</string>
+    <string name="nfc">NFC:</string>
+    <string name="open_camera">selfie tasvirini qo\'shish</string>
+
+    <string name="error_nfc">Hujjatni oqishda hato, \n qayta urinib ko\'ring</string>
+    <string name="try_one">Qayta urinib ko\'ring</string>
+    <string name="info">Info</string>
+    /Person data
+    <string name="requestGuid">Fuqarolik:</string>
+    <string name="inn">STIR:</string>
+    <string name="pinpp">JSHSHIR</string>
+    <string name="surnameC">Familiyasi:</string>
+    <string name="nameC">Ismi:</string>
+    <string name="patronymC">Otasining ismi:</string>
+    <string name="surnameL">Familiyasi:</string>
+    <string name="nameL">Ismi:</string>
+    <string name="patronymL">Otasining ismi:</string>
+    <string name="surnameE">Familiyasi:</string>
+    <string name="nameE">Ismi:</string>
+    <string name="birthDate">Tug\'ilgan kuni:</string>
+    <string name="sex">Jinsi:</string>
+    <string name="sexName">Jinsi:</string>
+    <string name="sexNameUz">Jinsi:</string>
+    <string name="birthCountry">Tug\'ilgan joyi:</string>
+    <string name="birthCountryName">Tug\'ilgan joyi:</string>
+    <string name="birthCountryNameUz">Tug\'ilgan joyi:</string>
+    <string name="birthPlace">Tug\'ilgan joyi:</string>
+    <string name="nationality">Millati:</string>
+    <string name="nationalityName">Millati:</string>
+    <string name="nationalityNameUz">O\'zbek millati:</string>
+    <string name="documentType">Hujjat turi:</string>
+    <string name="documentTypeName">Hujjat turi:</string>
+    <string name="documentTypeUz">Hujjat turi:</string>
+    <string name="documentSerialNumber">Hujjat raqami:</string>
+    <string name="documentDateIssue">Berilgan sana:</string>
+    <string name="documentDateValid">Amal qilish muddati:</string>
+    <string name="documentIssuedBy">Kim tomonidan berilgan:</string>
+    <string name="personStatus">Inson holati:</string>
+    <string name="personStatusValue">Inson holati:</string>
+    <string name="citizenship">Fuqarolik:</string>
+    <string name="citizenshipName">Fuqarolik:</string>)
+    <string name="citizenshipNameUz">Fuqaroligi uzb:</string>
+    <string name="additional">Qo\'shimcha:</string>
+
+    // Address data
+    <string name="kadastr">kadastr:</string>
+    <string name="country">Mamlakat:</string>
+    <string name="countryICAO">ICAO kodi:</string>
+    <string name="countryName">Mamlakat:</string>
+    <string name="countryNameUz">Mamlakat:</string>
+    <string name="region">Viloyat:</string>
+    <string name="regionName">Viloyat:</string>
+    <string name="regionNameUz">Viloyat:</string>
+    <string name="district">Tuman:</string>
+    <string name="districtName">Tuman:</string>
+    <string name="districtNameUz">Tuman:</string>
+    <string name="address">Manzil:</string>
+    <string name="house">Uy:</string>
+    <string name="block">kvartal:</string>
+    <string name="liveFromDate">ro\'yxatdan o\'tgan :</string>
+    / Liveness Data
+    <string name="liveness">Hayotiylikni baholash:</string>
+    <string name="similarity">O\'xshashlikni baholash:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="accept">Roziman</string>
+    <string name="not_accept">Qabul qilmayman</string>
+    <string name="exit">Chiqish</string>
+    <string name="no">Yo\'q</string>
+    <string name="yes">Ha</string>
+    <string name="log_out">Ushbu telephon raqamini ruyhatdan chikarib tashlash?</string>
+    <string name="retry">Qayta urunish</string>
+    <string name="ok">Ok</string>
+    <string name="history">Tarix</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="home">Asosiy</string>
+    <string name="waiting_network">Tarmoq kutilmoqda ...</string>
+
+</resources>
