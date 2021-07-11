@@ -12,7 +12,7 @@ import com.google.gson.Gson
 import uz.digid.myverdi.R
 import uz.digid.myverdi.data.model.PersonDetails
 import uz.digid.myverdi.data.model.info.ModelServiceInfo
-import uz.digid.myverdi.data.model.info.ServiceInfo
+import uz.digid.myverdi.data.model.info .ServiceInfo
 import uz.digid.myverdi.data.model.request.ModelMobileData
 import uz.digid.myverdi.data.model.request.ModelPersonPhotoRequest
 import uz.digid.myverdi.data.model.request.PassportInfoRequest
