@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="LockedOrientationActivity"
-    package="uz.digid.myverdi">
-    <uses-permission android:name="android.permission.NFC" />
+
+    package="uz.digid.myverdi"
+    >
+<!--    <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -23,16 +23,13 @@
         android:supportsRtl="true"
         tools:replace="android:allowBackup"
         tools:targetApi="n">
-       <!-- <activity android:name="uz.digid.myverdi.ui.MainActivity"
+       &lt;!&ndash; <activity android:name="uz.digid.myverdi.ui.MainActivity"
             android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.DigId"
             android:screenOrientation="portrait">
 
-        </activity>-->
-        <meta-data
-            android:name="com.google.mlkit.vision.DEPENDENCIES"
-            android:value="ocr" />
+        </activity>&ndash;&gt;
 
-    </application>
+    </application>-->
 
 </manifest>
