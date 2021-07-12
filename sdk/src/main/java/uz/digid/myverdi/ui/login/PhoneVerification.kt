@@ -5,7 +5,7 @@ import uz.digid.myverdi.data.model.request.PhoneAuthRequest
 import uz.digid.myverdi.di.Injection
 
 class PhoneVerification(private val callBack: SmsVerificationCallBack) {
-    private val dataSource = Injection.providerRepository()
+    private val dataSource = Injection.provideRemoteRepository()
     private val scheduler = Injection.providerSchedulerProvider()
     private val composeDisposable = CompositeDisposable()
 
