@@ -15,6 +15,7 @@ class PhoneVerification(private val callBack: SmsVerificationCallBack) {
     fun verifyPhoneNumber(number: String) {
         val disposable = dataSource.sendCode(PhoneAuthRequest(number), "ru")
             .subscribeOn(scheduler.io())
+            .observeOn(scheduler.ui())
             .subscribe({ response ->
                 if (response.code == 112) {
                     callBack.onSuccess(response.message)
